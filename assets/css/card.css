@@ -39,3 +39,10 @@
 .card__conteudo-principal___titulo-princinpal span {
   color: var(--soft-violet);
 }
+
+.card__conteudo-principla___descricao {
+  color: var(--slightly-transparent-white);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
