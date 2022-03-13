@@ -1,12 +1,13 @@
 .card {
   align-items: center;
   background: var(--dark-desaturated-blue);
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90vw;
   overflow: hidden;
-  border-radius: 8px;
+  margin: 120px 0 120px 0;
+  width: 90vw;
 }
 
 .card__imagem {
