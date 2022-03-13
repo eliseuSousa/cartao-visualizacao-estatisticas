@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background: var(--very-dark-blue);
+  font-family: "Inter", sans-serif;
+  font-size: 65.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
