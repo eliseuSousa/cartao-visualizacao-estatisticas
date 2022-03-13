@@ -1,0 +1,41 @@
+.card {
+  align-items: center;
+  background: var(--dark-desaturated-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card__imagem {
+  width: 90vw;
+  height: 230px;
+  background: url("../images/image-header-mobile.jpg") center / cover no-repeat;
+}
+
+.card__imagem::after {
+  display: block;
+  content: "";
+  background-color: var(--soft-violet);
+  width: 90vw;
+  height: 230px;
+  opacity: 0.6;
+}
+
+.card__conteudo-principal {
+  width: 85%;
+  text-align: center;
+}
+
+.card__conteudo-principal___titulo-princinpal {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 40px 0 20px 0;
+}
+
+.card__conteudo-principal___titulo-princinpal span {
+  color: var(--soft-violet);
+}
