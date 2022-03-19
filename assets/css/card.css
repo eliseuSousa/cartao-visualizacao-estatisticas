@@ -2,14 +2,14 @@
   background: var(--dark-desaturated-blue);
   border-radius: 8px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   overflow: hidden;
   margin: 120px 0 120px 0;
   width: 80vw;
 }
 
 .card__imagem {
-  width: 100%;
+  width: 50%;
   height: 453px;
   background: url("../images/image-header-mobile.jpg") center / cover no-repeat;
 }
@@ -24,7 +24,8 @@
 
 .card__conteudo-principal {
   order: -1;
-  max-width: 350px;
+  max-width: 400px;
+  margin: 50px 80px 0 60px;
 }
 
 .card__conteudo-principal___titulo-princinpal {
@@ -40,7 +41,29 @@
 .card__conteudo-principal___lista {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.card__conteudo-principla___descricao {
+  color: var(--slightly-transparent-white);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.card__conteudo-principal___lista____stats {
+  margin-right: 75px;
+}
+.card__conteudo-principal___lista____stats:last-child {
+  margin-right: 0px;
+}
+
+.card__conteudo-principal___lista____stats_____titulo {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 375px) {
@@ -60,38 +83,31 @@
   .card__conteudo-principal {
     width: 85%;
     text-align: center;
+    margin: 0;
     order: 1;
+    padding-top: 50px;
   }
   .card__conteudo-principal___titulo-princinpal {
     font-size: 1.8rem;
-    padding: 40px 0 20px 0;
+  }
+  .card__conteudo-principla___descricao {
+    padding-bottom: 40px;
   }
   .card__conteudo-principal___lista {
     flex-direction: column;
     justify-content: none;
+    justify-content: space-between;
   }
-}
-
-.card__conteudo-principla___descricao {
-  color: var(--slightly-transparent-white);
-  font-size: 1rem;
-  font-weight: 400;
-  padding-bottom: 40px;
-}
-
-.card__conteudo-principal___lista____stats {
-  margin-bottom: 20px;
-}
-
-.card__conteudo-principal___lista____stats:last-child {
-  margin-bottom: 40px;
-}
-
-.card__conteudo-principal___lista____stats_____titulo {
-  color: var(--white);
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin-bottom: 8px;
+  .card__conteudo-principal___lista____stats {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .card__conteudo-principal___lista____stats:last-child {
+    margin-bottom: 40px;
+  }
+  .card__conteudo-principal___lista____stats_____titulo {
+    font-size: 1.6rem;
+  }
 }
 
 .card__conteudo-principal___lista____stats_____descricao {
