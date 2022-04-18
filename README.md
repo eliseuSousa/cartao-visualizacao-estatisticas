@@ -38,6 +38,5 @@ Ver o layout ideal dependendo do tamanho da tela do dispositivo.
 - Fluxo de trabalho mobile-first
 
 ## Autor
-## Autor 
 - Site - [Eliseu Sousa](https://eliseusousa.github.io/portfolio/)
 - Mentor Frontend - [@eliseuSousa](https://www.frontendmentor.io/profile/eliseuSousa)
