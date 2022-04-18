@@ -28,7 +28,7 @@ Ver o layout ideal dependendo do tamanho da tela do dispositivo.
 
 ### Links
 - Clique no [link](https://github.com/eliseuSousa/cartao-visualizacao-estatisticas) para acessar o repositório com a solução.
-- URL do site: [Frontend Mentor | Stats preview card component]()
+- URL do site: [Frontend Mentor | Stats preview card component](https://eliseusousa.github.io/cartao-visualizacao-estatisticas/)
 
 ## Meu processo
 ### Construído com:
